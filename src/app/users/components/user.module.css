@@ -1,0 +1,11 @@
+.users-list {
+  min-height: 600px;
+}
+
+.user-card {
+  min-height: 375px;
+}
+
+.detail-Wrapper {
+  min-height: 140px;
+}
