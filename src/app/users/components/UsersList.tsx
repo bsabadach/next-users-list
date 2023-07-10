@@ -4,7 +4,6 @@ import cx from 'classnames'
 import { UserCard } from './UserCard'
 import { SimpleUser } from '@/types'
 
-import styles from './user.module.css'
 
 type Props = {
     onSelectUser: (id: string) => void
@@ -14,7 +13,7 @@ type Props = {
 export const UsersList = ({ users, onSelectUser }: Props) => {
     return (
         <section
-            className={cx('m-auto container bg-white relative', styles.usersList)}
+            className='m-auto container bg-white relative'
         >
             <div className="flex flex-wrap items-center justify-center">
                 {users.map((user, index) => (

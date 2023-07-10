@@ -5,7 +5,7 @@ import { Header } from "@/layout/Header";
 export default function RootLayout({ children }:PropsWithChildren) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <Header />
         <main>{children}</main>
       </body>
