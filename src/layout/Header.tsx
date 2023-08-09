@@ -1,7 +1,6 @@
 import * as React from "react";
 
 import styles from "./header.module.css";
-import cx from "classnames";
 
 export const Header = () => {
   return (

@@ -1,7 +1,6 @@
-import { redirect } from 'next/navigation'
-
+import { redirect } from "next/navigation";
 
 export default function Home() {
-    redirect("/users")
-    return false
+  redirect("/users");
+  return false;
 }

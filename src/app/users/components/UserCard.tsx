@@ -5,10 +5,9 @@ import { SimpleUser } from "@/types";
 
 type Props = {
   user: SimpleUser;
-  onSelectUser: (selectedUserId: string) => void;
 };
 
-export const UserCard = ({ user, onSelectUser }: Props) => {
+export const UserCard = ({ user }: Props) => {
   return (
     <Link href={`/users/${user.id}`} className="w-full md:w-1/3 lg:w-1/5">
       <div className="flex flex-col mb-8 px-3">
